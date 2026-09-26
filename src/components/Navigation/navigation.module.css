@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+.navigationBar{
+    @apply flex justify-center gap-2 p-2 font-semibold text-xl
+}

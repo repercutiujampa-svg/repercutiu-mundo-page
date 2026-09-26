@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+h3{
+    @apply text-center font-bold
+}
+.container{
+    @apply container mx-auto 
+}
+
+.newsContainer{
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 
+}
+
+.news{
+    @apply border border-gray-400 rounded-md
+}
+.container h2{
+    @apply text-center text-4xl font-bold text-red-600 my-10
+}
