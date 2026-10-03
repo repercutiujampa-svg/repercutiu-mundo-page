@@ -54,8 +54,10 @@ export const Noticias = () => {
                         <div className={Style.news} key={noticia.id}>
                             <h3>{noticia.title}</h3>
                             <img src={noticia.image} alt={noticia.titulo} />
-                            <p>{noticia.sumary}</p>
-                            <Link to={`/noticia/${noticia.id}`}>Acessar</Link>
+                        
+                            <p>{noticia.summary}</p>
+                          
+                            <Link className={Style.button}to={`/noticia/${noticia.id}`}>Acessar</Link>
                         </div>
 
                     ))}
